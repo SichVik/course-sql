@@ -1,5 +1,5 @@
 CREATE TABLE user_account (
-	user_account_id  int	NOT NULL,
+	user_account_id  int	NOT NULL AUTO_INCREMENT,
 	Email	VARCHAR(30) 	NOT NULL,
 	Phone	VARCHAR(12),
 	Address	VARCHAR(30),

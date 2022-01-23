@@ -1,7 +1,7 @@
 CREATE TABLE author (
-	autor_id  int	NOT NULL,
+	author_id  int	NOT NULL AUTO_INCREMENT,
 	LastName	VARCHAR(30) 	NOT NULL,
     FirstName	VARCHAR(30),	
 	DateOfBirth DATE,
-    PRIMARY KEY (autor_id)
+    PRIMARY KEY (author_id)
 );

@@ -1,0 +1,1 @@
+SELECT DISTINCT Address FROM user_account;

@@ -1,0 +1,1 @@
+SELECT * FROM user WHERE LastName LIKE '%кий';
